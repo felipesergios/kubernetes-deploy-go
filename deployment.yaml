@@ -8,7 +8,7 @@ metadata:
   labels:
     app: goapi
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: goapi
@@ -51,7 +51,7 @@ metadata:
     allow.http: "false"
 spec:
   rules:
-  - host: goo.sead.govrn
+  - host: goo.devopsninja.com
     http:
       paths:
         - path: /
